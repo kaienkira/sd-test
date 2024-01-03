@@ -1,0 +1,12 @@
+name: sd-test
+
+channels:
+  - pytorch
+  - nvidia
+
+dependencies:
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.8
+  - safetensors
